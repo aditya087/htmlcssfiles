@@ -1,0 +1,30 @@
+body{
+    background-image: url([url=https://ibb.co/cQ47R5t]);
+}
+#name{
+    color: black;
+    background-color: crimson;
+    font-size: large;
+    text-align: center;
+}
+#role{
+ 
+    color: darksalmon;
+    background-color: darkturquoise;
+    font-variant: small-caps;
+    font-size: large;
+   
+}
+
+textarea{
+    background-color: #0000f1;
+    color: rgb(103, 177, 34);
+    font-style: italic;
+}
+div{
+    width: 10px;
+    height: 90;
+    padding: 10px;
+    margin: 60;
+   
+}

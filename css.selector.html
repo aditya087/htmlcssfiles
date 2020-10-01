@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selector</title>
+    <style>
+        /* Element selector */
+        h3{
+            background-color: rgb(#0000ff,#ff0000,#ffff00);
+            text-align: center;
+            text-transform: uppercase;
+            
+        }
+        p {
+            
+            border: 2px solid red;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+
+        /* Id selector */
+        #firstpara {
+            color: hotpink;
+            
+        }
+
+        /* Class selector */
+        .redelement {
+            color: red;
+        }
+
+        .bgblue {
+            background-color: green;
+        }
+
+        /* Grouping selector */
+        footer,
+        span {
+            background-color: orange;
+            float: left
+        }
+        p{
+            color: #666666;
+            clear: right;
+            font-variant: unset;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <h3>css selector</h3>
+    <p id="firstpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, unde vel.</p>
+    <p id="second para" class="redelement bgblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
+        laborum.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consequuntur labore vitae.</p>
+        <span></span>
+    </div>
+    <span>ajbravo</span><span>ajbravo1</span>
+    <p>ajbravo</p><p>ajbravo1</p>
+    <span class="mainid"></span>
+    <p id="mainclass"></p>
+
+    <footer>this is footer</footer>
+
+   
+</body>
+
+</html>

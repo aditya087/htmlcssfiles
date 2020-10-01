@@ -1,0 +1,74 @@
+/*File Created by Aditya Jaiswal*/
+header{
+   color:rgba(182,182,182,1);
+   background-color: rgba(0,139,255,0.3);
+   background-image: url("../images/flywheel.jpg");
+   background-size: cover;
+   height: 250px;
+}
+body{
+   background-color:#000000;
+   margin-top: 20px;
+}
+
+h1{
+   color: rgb(128,128,128);
+   text-align: center;
+   color:rgba(110,190,255);
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+   text-align: center;
+}
+a{
+   color:rgb(0,123,123);
+   text-decoration: none;
+}
+nav a{
+   background-color:rgba(255, 255, 255,0,3);
+   border-width: 2px;
+   border-color: rgba(0,0,255);
+   border-radius: 20px;
+   text-decoration: none;
+   padding: 20px 30px;
+   display: inline-block;
+   text-align: center;
+   margin: 4%;
+   color:rgb(0,0,0);
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.active{
+   background-color: rgba(0,0,0,0.3);
+   padding: 20px 30px;
+   border: 3px;
+   color:rgb(255,255,255);
+}
+.left{
+   display: block;
+   width: 350px;
+   float: left;
+   align-items: center;
+}
+img{
+   margin: 20px 20px;
+   display: block;
+   width: 300px;
+   border: solid 4px;
+   border-color: darkgoldenrod;
+   align-self: center;
+}
+h2{
+   text-transform: uppercase;
+   color:rgba(116,192,255);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.right{
+   display: inline;
+}
+section{
+   color:rgba(182,182,182,1);
+   background-color: rgba(0,139,255,0.3);
+   font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model, Marging and Padding</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: cyan;
+        }
+
+        .container {
+            background-color: rgb(25, 196, 48);
+            border: 2px solid red;
+            /* padding: 50px; */
+            /* margin: 35px; */
+            /* padding-bottom: ; */
+            /* padding-right: ; */
+            /* padding: 56px 45px 40px 50px; /*top right bottom left */
+            padding: 34px 100px;
+            /*padding: y(top/bottom), x(left/right) same for margin*/
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my paragraph</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro magni suscipit,
+            maiores voluptas exercitationem aperiam mollitia nemo doloribus dolorum a incidunt vel?</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my paragraph</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro magni suscipit,
+            maiores voluptas exercitationem aperiam mollitia nemo doloribus dolorum a incidunt vel?</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my paragraph</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, porro magni suscipit,
+            maiores voluptas exercitationem aperiam mollitia nemo doloribus dolorum a incidunt vel?</p>
+    </div>
+
+</body>
+
+</html>
